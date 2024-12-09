@@ -1,0 +1,116 @@
+
+
+.contact-form {
+    margin-top: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 800px;
+    box-shadow: 0px 2.979px 59.574px 0px rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.form-group input,
+.form-group textarea {
+    border: 1px solid  #DBDFD0;
+    background: #FFF;
+    font-size: 16px;
+}
+
+
+.form-group input {
+    padding: 0px 24px;
+    border-radius: 72px;
+    height: 60px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+
+.form-group textarea {
+    display: flex;
+    height: 156px;
+    padding: 24px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 16px;
+    resize: none;
+    font-family: "DM Sans";
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+.submit-btn {
+    display: flex;
+    padding: 20px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 118px;
+    background: #AD343E;
+    width: 100%;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #891a18;
+}
+
+.info-contact {
+    margin-top: 80px;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    margin-bottom: 125px;
+}
+
+.call-us,
+.hours,
+.our-location {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.date-time,
+.info-location {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.tel {
+    color: #AD343E;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px; /* 125% */
+    letter-spacing: -0.72px;
+}

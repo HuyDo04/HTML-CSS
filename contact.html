@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.6.0-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-top d-flex-between">
+        <div class="header-contact-left d-flex-between">
+          <a href="tel:(414) 857 - 0107" class="d-flex-between gap-8">
+            <img src="./img/phone.svg" alt="image" class="icon-header-left" />
+            (414) 857 - 0107
+          </a>
+          <a href="mailto:yummy@bistrobliss" class="d-flex-between gap-8">
+            <img src="./img/mail.svg" alt="image" class="icon-header-left" />
+            yummy@bistrobliss
+          </a>
+        </div>
+        <div class="header-contact-right d-flex-between gap-4">
+          <a href="#!">
+            <img
+              src="./img/tw-hd.png"
+              alt="Twitter"
+              class="icon-contact-header"
+            />
+          </a>
+          <a href="#!">
+            <img
+              src="./img/fb-hd.png"
+              alt="Facebook"
+              class="icon-contact-header"
+            />
+          </a>
+          <a href="#!">
+            <img
+              src="./img/ig-hd.png"
+              alt="Instagram"
+              class="icon-contact-header"
+            />
+          </a>
+          <a href="#!">
+            <img src="./img/git-hd.png" alt="Git" class="icon-contact-header" />
+          </a>
+        </div>
+      </div>
+      <header id="header">
+        <div class="header-inner d-flex-between">
+          <a href="#!">
+            <img src="./img/Logo.png" alt="Logo" class="header-logo" />
+          </a>
+          <nav class="nav-pc">
+            <ul class="nav-inner d-flex-between">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="blog.html">Pages</a></li>
+              <li><a href="contact.html" class="click">Contact</a></li>
+            </ul>
+          </nav>
+          <label for="nav-mobile-input" class="nav-bars">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <input
+            type="checkbox"
+            hidden
+            name=""
+            class="nav-input"
+            id="nav-mobile-input"
+          />
+          <label for="nav-mobile-input" class="nav-overlay"></label>
+
+          <nav class="nav-mobile">
+            <label for="nav-mobile-input" class="nav-mobile-close">
+              <i class="fa-solid fa-xmark"></i>
+            </label>
+
+            <ul class="nav-mobile-inner">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="blog.html">Pages</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <a href="#!" class="btn btn-header">Book A Table</a>
+        </div>
+      </header>
+      <!-- end-header -->
+      <!-- blog-title -->
+      <section class="blog-title">
+        <h1><a href="#!">Contact Us</a></h1>
+        <p class="desc desc-blog-title">
+          We consider all the drivers of change gives you the components you
+          need <br />
+          to change to create a truly happens.
+        </p>
+      </section>
+
+      <form class="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter email address"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input
+            type="text"
+            id="subject"
+            placeholder="Write a subject"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            placeholder="Write your message"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send</button>
+      </form>
+
+      <div class="info-contact">
+        <div class="telephone">
+          <div class="call-us">Call Us:</div>
+          <a href="tel:+1-234-567-8900" class="tel">+1-234-567-8900</a>
+        </div>
+        <div class="info-hours">
+          <div class="hours">Hours:</div>
+          <div class="date-time">Mon-Fri: 11am - 8pm</div>
+          <div class="date-time">Sat, Sun: 9am - 10pm</div>
+        </div>
+        <div class="info-location">
+          <div class="our-location">Our Location:</div>
+          <div class="info-location">123 Bridge Street</div>
+          <div class="info-location">Nowhere Land, LA 12345</div>
+          <div class="info-location">United States</div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div id="footer">
+        <div class="contact">
+          <a href="#!">
+            <img src="./img/logo-footer.png" alt="Logo" class="logo-footer" />
+          </a>
+          <div class="desc-footer desc">
+            In the new era of technology we look a in the future with certainty
+            and pride to for our company and.
+          </div>
+          <div class="icon-contact-footer">
+            <a href="#!">
+              <img src="./img/icon/1.svg" alt="image" class="icon-footer" />
+            </a>
+            <a href="#!">
+              <img src="./img/icon/2.svg" alt="image" class="icon-footer" />
+            </a>
+            <a href="#!">
+              <img src="./img/icon/3.svg" alt="image" class="icon-footer" />
+            </a>
+            <a href="#!">
+              <img src="./img/icon/4.svg" alt="image" class="icon-footer" />
+            </a>
+          </div>
+        </div>
+        <div class="footer-list">
+          <div class="footer-item">
+            <div class="title-page-footer">Pages</div>
+            <ul class="list-menu-footer">
+              <li><a href="#!">Home</a></li>
+              <li><a href="#!">About</a></li>
+              <li><a href="#!">Menu</a></li>
+              <li><a href="#!">Pricing</a></li>
+              <li><a href="#!">Blog</a></li>
+              <li><a href="#!">Contact</a></li>
+              <li><a href="#!">Delivery</a></li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <div class="title-page-footer">Utility Pages</div>
+            <ul class="list-menu-footer">
+              <li><a href="#!">Start Here</a></li>
+              <li><a href="#!">Styleguide</a></li>
+              <li><a href="#!">Password Protected</a></li>
+              <li><a href="#!">404 Not Found</a></li>
+              <li><a href="#!">Licenses</a></li>
+              <li><a href="#!">Contact</a></li>
+              <li><a href="#!">Changelog</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-follow-us">
+          <a href="#!">
+            <img src="./img/footer-1.png" alt="Footer" class="footer-image" />
+          </a>
+          <a href="#!">
+            <img src="./img/footer-2.png" alt="Footer" class="footer-image" />
+          </a>
+          <a href="#!">
+            <img src="./img/footer-3.png" alt="Footer" class="footer-image" />
+          </a>
+          <a href="#!">
+            <img src="./img/footer-4.png" alt="Footer" class="footer-image" />
+          </a>
+        </div>
+      </div>
+      <div class="line-footer">
+        <hr />
+      </div>
+      <div class="copyright">
+        Copyright © 2023 Hashtag Developer. All Rights Reserved
+      </div>
+    </footer>
+  </body>
+</html>

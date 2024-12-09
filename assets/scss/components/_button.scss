@@ -1,0 +1,39 @@
+.btn {
+    display: inline-block;
+    padding: 20px 32px;
+    border-radius: 999px;
+    border: 1.5px solid var(--primary-color);
+    color: #182226;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.btn-header {
+    padding: 12px 24px;
+}
+
+.btn-about {
+    padding: 20px 32px;
+}
+
+.btn-banner-red {
+    background: #AD343E;
+    border: none;
+    color: #fff;
+}
+
+.btn-menu {
+    border:1px solid #DBDFD0;
+}
+
+.btn-click {
+    background: #AD343E;
+    border: none;
+    color: #fff;
+}

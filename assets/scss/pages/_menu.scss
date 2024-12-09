@@ -1,0 +1,107 @@
+.menu-title {
+    margin-top: 85px;
+    text-align: center;
+
+    h1 {
+        a {
+            color: var(--primary-color);
+            font-family: "Playfair Display";
+            font-size: 100px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 96px; 
+        }
+    }
+}
+
+.menu-title-desc {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.product-image {
+    width: 306px;
+    height: 230px;
+    flex-shrink: 0;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.list-product {
+    margin-top: 70px;
+    padding: 0 110px;
+}
+
+.card-product {
+    width: 308px;
+    border-radius: 12px;
+    border: 1.5px solid  #DBDFD0;
+    background: var(--secondary);
+    text-align: center;
+}
+
+.info-product {
+    padding: 34px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.price {
+    color: #AD343E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+    letter-spacing: -0.72px;
+}
+
+.name-product {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+}
+
+.apps {
+    margin-top: 120px;
+    padding: 120px 110px;
+    gap: 122px;
+    background:  #F9F9F7;
+    flex-wrap: wrap;
+}
+
+.app-image {
+    width: 220px;
+    height: 90px;
+}
+
+.app-image-center {
+    width: 260px;
+}
+
+.list-apps-top,
+.list-apps-bt {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.list-apps-center {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 364px;
+}
+
+.app-top {
+    width: 230px;
+    height: 90px;
+}
