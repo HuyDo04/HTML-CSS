@@ -13,6 +13,7 @@
     background-image: url("/img/about/bg.png");
     background-repeat: no-repeat;
 	background-position: center;
+    background-size: cover;
     min-height:690px; 
     text-align: center;
     display: flex;
@@ -80,6 +81,7 @@
 .infomation-data {
     margin-top: 60px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
 }
