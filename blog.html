@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="./fontawesome-free-6.6.0-web/css/all.min.css"
@@ -14,7 +15,7 @@
     <div class="container">
       <div class="header-top d-flex-between">
         <div class="header-contact-left d-flex-between">
-          <a href="tel:(414) 857 - 0107" class="d-flex-between gap-8">
+          <a href="tel:(414)857-0107" class="d-flex-between gap-8">
             <img src="./img/phone.svg" alt="image" class="icon-header-left" />
             (414) 857 - 0107
           </a>
@@ -70,7 +71,7 @@
           <input
             type="checkbox"
             hidden
-            name=""
+            name="input-name"
             class="nav-input"
             id="nav-mobile-input"
           />
@@ -104,11 +105,11 @@
       </section>
       <!-- end -->
       <!-- blog-list -->
-      <section class="blog-list">
+      <div class="blog-list">
         <div class="grid wide">
           <div class="row">
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="card-blog">
+              <div data-aos="fade-up" class="card-blog">
                 <a href="#!">
                   <img
                     src="./img/blog/blog1.png"
@@ -126,7 +127,7 @@
             </div>
 
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="card-blog">
+              <div data-aos="fade-up" class="card-blog">
                 <a href="#!">
                   <img
                     src="./img/blog/blog2.png"
@@ -143,7 +144,7 @@
               </div>
             </div>
 
-            <div class="col l-3 l-l-4 m-6 c-12">
+            <div data-aos="fade-up" class="col l-3 l-l-4 m-6 c-12">
               <div class="card-blog">
                 <a href="#!">
                   <img
@@ -161,7 +162,7 @@
               </div>
             </div>
 
-            <div class="col l-3 l-l-4 m-6 c-12">
+            <div data-aos="fade-up" class="col l-3 l-l-4 m-6 c-12">
               <div class="card-blog">
                 <a href="#!">
                   <img
@@ -179,7 +180,7 @@
               </div>
             </div>
 
-            <div class="col l-3 l-l-4 m-6 c-12">
+            <div data-aos="fade-up" class="col l-3 l-l-4 m-6 c-12">
               <div class="card-blog">
                 <a href="#!">
                   <img
@@ -197,7 +198,7 @@
               </div>
             </div>
 
-            <div class="col l-3 l-l-4 m-6 c-12">
+            <div data-aos="fade-up" class="col l-3 l-l-4 m-6 c-12">
               <div class="card-blog">
                 <a href="#!">
                   <img
@@ -215,7 +216,7 @@
               </div>
             </div>
 
-            <div class="col l-3 l-l-4 m-6 c-12">
+            <div data-aos="fade-up" class="col l-3 l-l-4 m-6 c-12">
               <div class="card-blog">
                 <a href="#!">
                   <img
@@ -234,7 +235,7 @@
             </div>
 
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="card-blog">
+              <div data-aos="fade-up" class="card-blog">
                 <a href="#!">
                   <img
                     src="./img/blog/blog8.png"
@@ -252,7 +253,7 @@
             </div>
 
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="card-blog">
+              <div data-aos="fade-up" class="card-blog">
                 <a href="#!">
                   <img
                     src="./img/blog/blog9.png"
@@ -269,7 +270,7 @@
               </div>
             </div>
 
-            <div class="col l-3 l-l-4 m-6 c-12">
+            <div data-aos="fade-up" class="col l-3 l-l-4 m-6 c-12">
               <div class="card-blog">
                 <a href="#!">
                   <img
@@ -287,7 +288,7 @@
               </div>
             </div>
 
-            <div class="col l-3 l-l-4 m-6 c-12">
+            <div data-aos="fade-up" class="col l-3 l-l-4 m-6 c-12">
               <div class="card-blog">
                 <a href="#!">
                   <img
@@ -305,7 +306,7 @@
               </div>
             </div>
 
-            <div class="col l-3 l-l-4 m-6 c-12">
+            <div data-aos="fade-up" class="col l-3 l-l-4 m-6 c-12">
               <div class="card-blog">
                 <a href="#!">
                   <img
@@ -324,7 +325,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
       <!-- footer -->
       <footer>
         <div id="footer">
@@ -404,5 +405,9 @@
         </div>
       </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

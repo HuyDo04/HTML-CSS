@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="./fontawesome-free-6.6.0-web/css/all.min.css"
@@ -22,7 +23,7 @@
       <!-- header -->
       <div class="header-top d-flex-between">
         <div class="header-contact-left d-flex-between">
-          <a href="tel:(414) 857 - 0107" class="d-flex-between gap-8">
+          <a href="tel:(414)857-0107" class="d-flex-between gap-8">
             <img src="./img/phone.svg" alt="image" class="icon-header-left" />
             (414) 857 - 0107
           </a>
@@ -78,7 +79,7 @@
           <input
             type="checkbox"
             hidden
-            name=""
+            name="input-name"
             class="nav-input"
             id="nav-mobile-input"
           />
@@ -129,62 +130,67 @@
         <div class="title-menu">
           <h2><a href="#!" class="title-h2">Browse Our Menu</a></h2>
         </div>
-
         <div class="grid wide group-card-menu">
           <div class="row">
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="menu-item">
-                <a href="#!">
-                  <img
-                    src="./img/icon-breakfast.svg"
-                    alt="image"
-                    class="menu-item-icon"
-                  />
-                </a>
-                <h3><a class="menu-item-name" href="#!">Breakfast</a></h3>
-                <p class="description">
-                  In the new era of technology we look in the future with
-                  certainty and pride for our life.
-                </p>
-                <a href="#!" class="explore-menu">Explore Menu</a>
+              <div data-aos="fade-right">
+                <div class="menu-item">
+                  <a href="#!">
+                    <img
+                      src="./img/icon-breakfast.svg"
+                      alt="image"
+                      class="menu-item-icon"
+                    />
+                  </a>
+                  <h3><a class="menu-item-name" href="#!">Breakfast</a></h3>
+                  <p class="description">
+                    In the new era of technology we look in the future with
+                    certainty and pride for our life.
+                  </p>
+                  <a href="#!" class="explore-menu">Explore Menu</a>
+                </div>
               </div>
             </div>
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="menu-item">
-                <a href="#!">
-                  <img
-                    src="./img/icon-main.svg"
-                    alt="image"
-                    class="menu-item-icon"
-                  />
-                </a>
-                <h3><a class="menu-item-name" href="#!">Main Dishes</a></h3>
-                <p class="description">
-                  In the new era of technology we look in the future with
-                  certainty and pride for our life.
-                </p>
-                <a href="#!" class="explore-menu">Explore Menu</a>
+              <div data-aos="fade-right">
+                <div class="menu-item">
+                  <a href="#!">
+                    <img
+                      src="./img/icon-main.svg"
+                      alt="image"
+                      class="menu-item-icon"
+                    />
+                  </a>
+                  <h3><a class="menu-item-name" href="#!">Main Dishes</a></h3>
+                  <p class="description">
+                    In the new era of technology we look in the future with
+                    certainty and pride for our life.
+                  </p>
+                  <a href="#!" class="explore-menu">Explore Menu</a>
+                </div>
               </div>
             </div>
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="menu-item">
-                <a href="#!">
-                  <img
-                    src="./img/icon-drinks.svg"
-                    alt="image"
-                    class="menu-item-icon"
-                  />
-                </a>
-                <h3><a class="menu-item-name" href="#!">Drinks</a></h3>
-                <p class="description">
-                  In the new era of technology we look in the future with
-                  certainty and pride for our life.
-                </p>
-                <a href="#!" class="explore-menu">Explore Menu</a>
+              <div data-aos="fade-left">
+                <div class="menu-item">
+                  <a href="#!">
+                    <img
+                      src="./img/icon-drinks.svg"
+                      alt="image"
+                      class="menu-item-icon"
+                    />
+                  </a>
+                  <h3><a class="menu-item-name" href="#!">Drinks</a></h3>
+                  <p class="description">
+                    In the new era of technology we look in the future with
+                    certainty and pride for our life.
+                  </p>
+                  <a href="#!" class="explore-menu">Explore Menu</a>
+                </div>
               </div>
             </div>
             <div class="col l-3 l-l-4 m-6 c-12">
-              <h2>
+              <div data-aos="fade-right">
                 <div class="menu-item">
                   <a href="#!">
                     <img
@@ -200,7 +206,7 @@
                   </p>
                   <a href="#!" class="explore-menu">Explore Menu</a>
                 </div>
-              </h2>
+              </div>
             </div>
           </div>
         </div>
@@ -221,7 +227,7 @@
             <div class="card-contact">
               <a href="#!" class="visit-us">Come and visit us</a>
               <div class="about-contact">
-                <a href="tel:(414) 857 - 0107" class="d-flex mg-45 gap-20">
+                <a href="tel:(414)857-0107" class="d-flex mg-45 gap-20">
                   <img src="./img/phone.svg" alt="image" class="icon-contact" />
                   (414) 857 - 0107
                 </a>
@@ -247,24 +253,26 @@
           </div>
 
           <div class="about-content about-size">
-            <h2>
-              <a href="#!" class="title-h2">
-                We provide healthy food for your family.
-              </a>
-            </h2>
-            <p class="about-desc-1 about-desc">
-              Our story began with a vision to create a unique dining experience
-              that merges fine dining, exceptional service, and a vibrant
-              ambiance. Rooted in city's rich culinary culture, we aim to honor
-              our local roots while infusing a global palate.
-            </p>
-            <p class="about-desc-2 about-desc desc">
-              At place, we believe that dining is not just about food, but also
-              about the overall experience. Our staff, renowned for their warmth
-              and dedication, strives to make every visit an unforgettable
-              event.
-            </p>
-            <a href="#!" class="btn btn-about">More About Us</a>
+            <div data-aos="fade-up">
+              <h2>
+                <a href="#!" class="title-h2">
+                  We provide healthy food for your family.
+                </a>
+              </h2>
+              <p class="about-desc-1 about-desc">
+                Our story began with a vision to create a unique dining
+                experience that merges fine dining, exceptional service, and a
+                vibrant ambiance. Rooted in city's rich culinary culture, we aim
+                to honor our local roots while infusing a global palate.
+              </p>
+              <p class="about-desc-2 about-desc desc">
+                At place, we believe that dining is not just about food, but
+                also about the overall experience. Our staff, renowned for their
+                warmth and dedication, strives to make every visit an
+                unforgettable event.
+              </p>
+              <a href="#!" class="btn btn-about">More About Us</a>
+            </div>
           </div>
         </div>
       </section>
@@ -282,77 +290,85 @@
         <div class="grid wide service-card">
           <div class="row">
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="service-item">
-                <a href="#!">
-                  <img
-                    src="./img/caterings.png"
-                    alt="Service"
-                    class="service-image"
-                  />
-                </a>
-                <h3><a href="#!">Caterings</a></h3>
-                <div class="service-desc">
-                  <p class="desc">
-                    In the new era of technology we look in the future with
-                    certainty for life.
-                  </p>
+              <div data-aos="fade-right">
+                <div class="service-item">
+                  <a href="#!">
+                    <img
+                      src="./img/caterings.png"
+                      alt="Service"
+                      class="service-image"
+                    />
+                  </a>
+                  <h3><a href="#!">Caterings</a></h3>
+                  <div class="service-desc">
+                    <p class="desc">
+                      In the new era of technology we look in the future with
+                      certainty for life.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
 
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="service-item">
-                <a href="#!">
-                  <img
-                    src="./img/birthday.png"
-                    alt="Service"
-                    class="service-image"
-                  />
-                </a>
-                <h3><a href="#!">Birthdays</a></h3>
-                <div class="service-desc">
-                  <p class="desc">
-                    In the new era of technology we look in the future with
-                    certainty for life.
-                  </p>
+              <div data-aos="fade-right">
+                <div class="service-item">
+                  <a href="#!">
+                    <img
+                      src="./img/birthday.png"
+                      alt="Service"
+                      class="service-image"
+                    />
+                  </a>
+                  <h3><a href="#!">Birthdays</a></h3>
+                  <div class="service-desc">
+                    <p class="desc">
+                      In the new era of technology we look in the future with
+                      certainty for life.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
 
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="service-item">
-                <a href="#!">
-                  <img
-                    src="./img/wedding.png"
-                    alt="Service"
-                    class="service-image"
-                  />
-                </a>
-                <h3><a href="#!">Weddings</a></h3>
-                <div class="service-desc">
-                  <p class="desc">
-                    In the new era of technology we look in the future with
-                    certainty for life.
-                  </p>
+              <div data-aos="fade-left">
+                <div class="service-item">
+                  <a href="#!">
+                    <img
+                      src="./img/wedding.png"
+                      alt="Service"
+                      class="service-image"
+                    />
+                  </a>
+                  <h3><a href="#!">Weddings</a></h3>
+                  <div class="service-desc">
+                    <p class="desc">
+                      In the new era of technology we look in the future with
+                      certainty for life.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
 
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="service-item">
-                <a href="#!">
-                  <img
-                    src="./img/event.png"
-                    alt="Service"
-                    class="service-image"
-                  />
-                </a>
-                <h3><a href="#!">Events</a></h3>
-                <div class="service-desc">
-                  <p class="desc">
-                    In the new era of technology we look in the future with
-                    certainty for life.
-                  </p>
+              <div data-aos="fade-right">
+                <div class="service-item">
+                  <a href="#!">
+                    <img
+                      src="./img/event.png"
+                      alt="Service"
+                      class="service-image"
+                    />
+                  </a>
+                  <h3><a href="#!">Events</a></h3>
+                  <div class="service-desc">
+                    <p class="desc">
+                      In the new era of technology we look in the future with
+                      certainty for life.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -371,43 +387,45 @@
           </div>
         </div>
         <div class="title-content content-size">
-          <h2>
-            <a href="#!" class="title-h2"> Fastest Food Delivery in City </a>
-          </h2>
-          <p class="content-desc desc">
-            Our visual designer lets you quickly and of drag a down your way to
-            customapps for both keep desktop.
-          </p>
-          <div class="features">
-            <div class="feature-content d-flex gap-20">
-              <div class="icon-feature">
-                <img
-                  src="./img/clock.svg"
-                  alt="image"
-                  class="icon-feature-img"
-                />
+          <div data-aos="fade-up">
+            <h2>
+              <a href="#!" class="title-h2"> Fastest Food Delivery in City </a>
+            </h2>
+            <p class="content-desc desc">
+              Our visual designer lets you quickly and of drag a down your way
+              to customapps for both keep desktop.
+            </p>
+            <div class="features">
+              <div class="feature-content d-flex gap-20">
+                <div class="icon-feature">
+                  <img
+                    src="./img/clock.svg"
+                    alt="image"
+                    class="icon-feature-img"
+                  />
+                </div>
+                <a href="#!">Delivery within 30 minutes</a>
               </div>
-              <a href="#!">Delivery within 30 minutes</a>
-            </div>
-            <div class="feature-content d-flex gap-20">
-              <div class="icon-feature">
-                <img
-                  src="./img/receipt-tax.svg"
-                  alt="image"
-                  class="icon-feature-img"
-                />
+              <div class="feature-content d-flex gap-20">
+                <div class="icon-feature">
+                  <img
+                    src="./img/receipt-tax.svg"
+                    alt="image"
+                    class="icon-feature-img"
+                  />
+                </div>
+                <a href="#!">Best Offer & Prices</a>
               </div>
-              <a href="#!">Best Offer & Prices</a>
-            </div>
-            <div class="feature-content d-flex gap-20">
-              <div class="icon-feature">
-                <img
-                  src="./img/shopping-cart.svg"
-                  alt="image"
-                  class="icon-feature-img"
-                />
+              <div class="feature-content d-flex gap-20">
+                <div class="icon-feature">
+                  <img
+                    src="./img/shopping-cart.svg"
+                    alt="image"
+                    class="icon-feature-img"
+                  />
+                </div>
+                <a href="#!">Online Services Available</a>
               </div>
-              <a href="#!">Online Services Available</a>
             </div>
           </div>
         </div>
@@ -415,6 +433,7 @@
       <!-- end-content -->
 
       <!-- Testimonial -->
+
       <section class="testimonial">
         <div class="title-testimonial">
           <h2><a href="#!" class="title-h2">What Our Customers Say</a></h2>
@@ -423,11 +442,11 @@
           <div class="grid wide service-card">
             <div class="row">
               <div class="col l-4 m-12 c-12">
-                <div class="testimonial-user-card">
+                <div data-aos="fade-up" class="testimonial-user-card">
                   <h3>
-                    <a href="#!" class="topic-testimonial"
-                      >“The best restaurant”</a
-                    >
+                    <a href="#!" class="topic-testimonial">
+                      “The best restaurant”
+                    </a>
                   </h3>
                   <p class="review-testimonial">
                     Last night, we dined at place and were simply blown away.
@@ -450,11 +469,11 @@
               </div>
 
               <div class="col l-4 m-12 c-12">
-                <div class="testimonial-user-card">
+                <div data-aos="fade-up" class="testimonial-user-card">
                   <h3>
-                    <a href="#!" class="topic-testimonial"
-                      >“Simply delicious”</a
-                    >
+                    <a href="#!" class="topic-testimonial">
+                      “Simply delicious”
+                    </a>
                   </h3>
                   <p class="review-testimonial">
                     Place exceeded my expectations on all fronts. The ambiance
@@ -478,11 +497,11 @@
               </div>
 
               <div class="col l-4 m-12 c-12">
-                <div class="testimonial-user-card">
+                <div data-aos="fade-up" class="testimonial-user-card">
                   <h3>
-                    <a href="#!" class="topic-testimonial"
-                      >“One of a kind restaurant”</a
-                    >
+                    <a href="#!" class="topic-testimonial">
+                      “One of a kind restaurant”
+                    </a>
                   </h3>
                   <p class="review-testimonial">
                     The culinary experience at place is first to none. The
@@ -511,7 +530,7 @@
       <!-- end testimonial -->
       <!-- Blog -->
       <section class="blog d-flex gap-20">
-        <div class="blog-content-left">
+        <div data-aos="fade-right" class="blog-content-left">
           <a href="#!">
             <img
               src="./img/our-blog-1.png"
@@ -534,7 +553,7 @@
             </p>
           </div>
         </div>
-        <div class="blog-content-right d-flex">
+        <div data-aos="fade-left" class="blog-content-right d-flex">
           <div class="content-article">
             <a href="#!">
               <img
@@ -679,5 +698,9 @@
         </div>
       </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

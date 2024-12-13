@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="./fontawesome-free-6.6.0-web/css/all.min.css"
@@ -15,7 +16,7 @@
       <!-- header -->
       <div class="header-top d-flex-between">
         <div class="header-contact-left d-flex-between">
-          <a href="tel:(414) 857 - 0107" class="d-flex-between gap-8">
+          <a href="tel:(414)857-0107" class="d-flex-between gap-8">
             <img src="./img/phone.svg" alt="image" class="icon-header-left" />
             (414) 857 - 0107
           </a>
@@ -71,7 +72,7 @@
           <input
             type="checkbox"
             hidden
-            name=""
+            name="input-name"
             class="nav-input"
             id="nav-mobile-input"
           />
@@ -97,61 +98,72 @@
       <!-- about -->
       <section class="about about-mg">
         <div class="about-inner d-flex-between">
-          <div class="about-content-left">
-            <a href="#!">
-              <img
-                src="/img/about/Image-healthy.png"
-                alt="About"
-                class="about-image about-size"
-              />
-            </a>
-            <div class="card-contact">
-              <a href="#!" class="visit-us">Come and visit us</a>
-              <div class="about-contact">
-                <a href="tel:(414) 857 - 0107" class="d-flex mg-45 gap-20">
-                  <img src="./img/phone.svg" alt="image" class="icon-contact" />
-                  (414) 857 - 0107
-                </a>
-                <a
-                  href="mailto:happytummy@restaurant.com"
-                  class="d-flex gap-20"
-                >
-                  <img src="./img/mail.svg" alt="image" class="icon-contact" />
-                  happytummy@restaurant.com
-                </a>
-                <address>
-                  <a href="#!" class="card-address gap-20">
+          <div data-aos="fade-right">
+            <div class="about-content-left">
+              <a href="#!">
+                <img
+                  src="/img/about/Image-healthy.png"
+                  alt="About"
+                  class="about-image about-size"
+                />
+              </a>
+              <div class="card-contact">
+                <a href="#!" class="visit-us">Come and visit us</a>
+                <div class="about-contact">
+                  <a href="tel:(414)857-0107" class="d-flex mg-45 gap-20">
                     <img
-                      src="./img/address.svg"
+                      src="./img/phone.svg"
                       alt="image"
                       class="icon-contact"
                     />
-                    837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles
+                    (414) 857 - 0107
                   </a>
-                </address>
+                  <a
+                    href="mailto:happytummy@restaurant.com"
+                    class="d-flex gap-20"
+                  >
+                    <img
+                      src="./img/mail.svg"
+                      alt="image"
+                      class="icon-contact"
+                    />
+                    happytummy@restaurant.com
+                  </a>
+                  <address>
+                    <a href="#!" class="card-address gap-20">
+                      <img
+                        src="./img/address.svg"
+                        alt="image"
+                        class="icon-contact"
+                      />
+                      837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles
+                    </a>
+                  </address>
+                </div>
               </div>
             </div>
           </div>
-
           <div class="about-content about-size">
-            <h2>
-              <a href="#!" class="title-h2">
-                We provide healthy food for your family.
-              </a>
-            </h2>
-            <p class="about-desc-1 about-desc">
-              Our story began with a vision to create a unique dining experience
-              that merges fine dining, exceptional service, and a vibrant
-              ambiance. Rooted in city's rich culinary culture, we aim to honor
-              our local roots while infusing a global palate.
-            </p>
-            <p class="about-desc-2 about-desc desc">
-              At place, we believe that dining is not just about food, but also
-              about the overall experience. Our staff, renowned for their warmth
-              and dedication, strives to make every visit an unforgettable
-              event.
-            </p>
-            <a href="#!" class="btn btn-about">More About Us</a>
+            <div data-aos="fade-left">
+              <h2>
+                <a href="#!" class="title-h2">
+                  We provide healthy food for your family.
+                </a>
+              </h2>
+              <p class="about-desc-1 about-desc">
+                Our story began with a vision to create a unique dining
+                experience that merges fine dining, exceptional service, and a
+                vibrant ambiance. Rooted in city's rich culinary culture, we aim
+                to honor our local roots while infusing a global palate.
+              </p>
+              <p class="about-desc-2 about-desc desc">
+                At place, we believe that dining is not just about food, but
+                also about the overall experience. Our staff, renowned for their
+                warmth and dedication, strives to make every visit an
+                unforgettable event.
+              </p>
+              <a href="#!" class="btn btn-about">More About Us</a>
+            </div>
           </div>
         </div>
       </section>
@@ -170,48 +182,54 @@
       <!-- end-baner -->
 
       <!-- features -->
-      <section class="features-about d-flex">
-        <div class="features-about-item">
-          <img
-            src="/img/about/restaurant-menu.svg"
-            alt="image"
-            class="icon-about-item"
-          />
-          <div class="group-name">
-            <div class="feature-name"><a href="#!">Multi Cuisine</a></div>
-            <div class="feature-desc desc">
-              In the new era of technology we look in the future with certainty
-              life.
+      <div data-aos="fade-up">
+        <div class="features-about d-flex">
+          <div class="features-about-item">
+            <img
+              src="/img/about/restaurant-menu.svg"
+              alt="image"
+              class="icon-about-item"
+            />
+            <div class="group-name">
+              <div class="feature-name"><a href="#!">Multi Cuisine</a></div>
+              <div class="feature-desc desc">
+                In the new era of technology we look in the future with
+                certainty life.
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="features-about-item">
-          <img
-            src="/img/about/restaurant.svg"
-            alt="image"
-            class="icon-about-item"
-          />
-          <div class="group-name">
-            <div class="feature-name"><a href="#!">Easy To Order</a></div>
-            <div class="feature-desc desc">
-              In the new era of technology we look in the future with certainty
-              life.
+          <div class="features-about-item">
+            <img
+              src="/img/about/restaurant.svg"
+              alt="image"
+              class="icon-about-item"
+            />
+            <div class="group-name">
+              <div class="feature-name"><a href="#!">Easy To Order</a></div>
+              <div class="feature-desc desc">
+                In the new era of technology we look in the future with
+                certainty life.
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="features-about-item">
-          <img src="/img/about/timer.svg" alt="image" class="icon-about-item" />
-          <div class="group-name">
-            <div class="feature-name"><a href="#!">Fast Delivery</a></div>
-            <div class="feature-desc desc">
-              In the new era of technology we look in the future with certainty
-              life.
+          <div class="features-about-item">
+            <img
+              src="/img/about/timer.svg"
+              alt="image"
+              class="icon-about-item"
+            />
+            <div class="group-name">
+              <div class="feature-name"><a href="#!">Fast Delivery</a></div>
+              <div class="feature-desc desc">
+                In the new era of technology we look in the future with
+                certainty life.
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
       <!--end-features -->
       <!-- about-information -->
       <section class="about-information d-flex">
@@ -279,83 +297,89 @@
           <div class="grid wide">
             <div class="row">
               <div class="col l-4 m-12 c-12">
-                <div class="testimonial-user-card">
-                  <h3>
-                    <a href="#!" class="topic-testimonial"
-                      >“The best restaurant”</a
-                    >
-                  </h3>
-                  <p class="review-testimonial">
-                    Last night, we dined at place and were simply blown away.
-                    From the moment we stepped in, we were enveloped in an
-                    inviting atmosphere and greeted with warm smiles.
-                  </p>
-                  <div class="line"><hr /></div>
-                  <div class="user-info d-flex gap-20">
-                    <img
-                      src="./img/avatar/robson.png"
-                      alt="Robson"
-                      class="avatar"
-                    />
-                    <div class="name-address">
-                      <span class="user-name">Sophire Robson</span>
-                      <address>Los Angeles, CA</address>
+                <div data-aos="fade-left">
+                  <div class="testimonial-user-card">
+                    <h3>
+                      <a href="#!" class="topic-testimonial">
+                        “The best restaurant”
+                      </a>
+                    </h3>
+                    <p class="review-testimonial">
+                      Last night, we dined at place and were simply blown away.
+                      From the moment we stepped in, we were enveloped in an
+                      inviting atmosphere and greeted with warm smiles.
+                    </p>
+                    <div class="line"><hr /></div>
+                    <div class="user-info d-flex gap-20">
+                      <img
+                        src="./img/avatar/robson.png"
+                        alt="Robson"
+                        class="avatar"
+                      />
+                      <div class="name-address">
+                        <span class="user-name">Sophire Robson</span>
+                        <address>Los Angeles, CA</address>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div class="col l-4 m-12 c-12">
-                <div class="testimonial-user-card">
-                  <h3>
-                    <a href="#!" class="topic-testimonial"
-                      >“Simply delicious”</a
-                    >
-                  </h3>
-                  <p class="review-testimonial">
-                    Place exceeded my expectations on all fronts. The ambiance
-                    was cozy and relaxed, making it a perfect venue for our
-                    anniversary dinner. Each dish was prepared and beautifully
-                    presented.
-                  </p>
-                  <div class="line"><hr /></div>
-                  <div class="user-info d-flex gap-20">
-                    <img
-                      src="./img/avatar/cannon.png"
-                      alt="Robson"
-                      class="avatar"
-                    />
-                    <div class="name-address">
-                      <span class="user-name">Matt Cannon</span>
-                      <address>San Diego, CA</address>
+                <div data-aos="fade-down">
+                  <div class="testimonial-user-card">
+                    <h3>
+                      <a href="#!" class="topic-testimonial">
+                        “Simply delicious”
+                      </a>
+                    </h3>
+                    <p class="review-testimonial">
+                      Place exceeded my expectations on all fronts. The ambiance
+                      was cozy and relaxed, making it a perfect venue for our
+                      anniversary dinner. Each dish was prepared and beautifully
+                      presented.
+                    </p>
+                    <div class="line"><hr /></div>
+                    <div class="user-info d-flex gap-20">
+                      <img
+                        src="./img/avatar/cannon.png"
+                        alt="Robson"
+                        class="avatar"
+                      />
+                      <div class="name-address">
+                        <span class="user-name">Matt Cannon</span>
+                        <address>San Diego, CA</address>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div class="col l-4 m-12 c-12">
-                <div class="testimonial-user-card">
-                  <h3>
-                    <a href="#!" class="topic-testimonial"
-                      >“One of a kind restaurant”</a
-                    >
-                  </h3>
-                  <p class="review-testimonial">
-                    The culinary experience at place is first to none. The
-                    atmosphere is vibrant, the food - nothing short of
-                    extraordinary. The food was the highlight of our evening.
-                    Highly recommended.
-                  </p>
-                  <div class="line"><hr /></div>
-                  <div class="user-info d-flex gap-20">
-                    <img
-                      src="./img/avatar/smith.png"
-                      alt="Robson"
-                      class="avatar"
-                    />
-                    <div class="name-address">
-                      <span class="user-name">Andy Smith</span>
-                      <address>San Francisco, CA</address>
+                <div data-aos="fade-right">
+                  <div class="testimonial-user-card">
+                    <h3>
+                      <a href="#!" class="topic-testimonial">
+                        “One of a kind restaurant”
+                      </a>
+                    </h3>
+                    <p class="review-testimonial">
+                      The culinary experience at place is first to none. The
+                      atmosphere is vibrant, the food - nothing short of
+                      extraordinary. The food was the highlight of our evening.
+                      Highly recommended.
+                    </p>
+                    <div class="line"><hr /></div>
+                    <div class="user-info d-flex gap-20">
+                      <img
+                        src="./img/avatar/smith.png"
+                        alt="Robson"
+                        class="avatar"
+                      />
+                      <div class="name-address">
+                        <span class="user-name">Andy Smith</span>
+                        <address>San Francisco, CA</address>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -445,5 +469,9 @@
       </footer>
       <!-- end-footer -->
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

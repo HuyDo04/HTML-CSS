@@ -330,16 +330,6 @@
     }
 }
 
-
-@media (min-width: 1601px) {
-    .container {
-        width: 100%;
-        #banner {
-            width: 100%;
-        }
-    }
-}
-
 /* PC medium resolution > */
 @media (min-width:1500px ){
     .l-0 {
@@ -472,6 +462,28 @@
     }
 }
 
+@media (min-width: 1601px) {
+    .container {
+        width: 100%;
+        #banner {
+            width: 100%;
+        }
+    }
+    // home
+    .testimonial-user-card {
+        min-width: 410px;
+    }
+
+    .desc {
+        font-size: 24px;
+    }
+
+    // blog
+    .blog {
+        gap: 100px;
+    }
+}
+
 @media (max-width: 1499px) {
     // 
     #header {
@@ -526,9 +538,8 @@
             max-width: 100%;
         }
     }
-
 }
-
+// 
 /* > PC low resolution */
    
 /* Tablet - PC low resolution */

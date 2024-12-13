@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="./fontawesome-free-6.6.0-web/css/all.min.css"
@@ -14,12 +15,12 @@
     <div class="container">
       <div class="header-top d-flex-between">
         <div class="header-contact-left d-flex-between">
-          <a href="tel:(414) 857 - 0107" class="d-flex-between gap-8">
-            <img src="./img/phone.svg" alt="image" class="icon-header-left" />
+          <a href="tel:(414)857-0107" class="d-flex-between gap-8">
+            <img src="./img/phone.svg" alt="phone" class="icon-header-left" />
             (414) 857 - 0107
           </a>
           <a href="mailto:yummy@bistrobliss" class="d-flex-between gap-8">
-            <img src="./img/mail.svg" alt="image" class="icon-header-left" />
+            <img src="./img/mail.svg" alt="gmail" class="icon-header-left" />
             yummy@bistrobliss
           </a>
         </div>
@@ -70,7 +71,7 @@
           <input
             type="checkbox"
             hidden
-            name=""
+            name="input-name"
             class="nav-input"
             id="nav-mobile-input"
           />
@@ -110,15 +111,15 @@
       </section>
       <!-- menu-list -->
       <!-- list-product -->
-      <section class="list-product">
+      <div class="list-product">
         <div class="grid wide">
           <div class="row">
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="card-product">
+              <div data-aos="fade-right" class="card-product">
                 <a href="#!">
                   <img
                     src="./img/menu/menu-1.png"
-                    alt="image"
+                    alt="product"
                     class="product-image"
                   />
                 </a>
@@ -133,11 +134,11 @@
             </div>
 
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="card-product">
+              <div data-aos="fade-right" class="card-product">
                 <a href="#!">
                   <img
                     src="./img/menu/menu-2.png"
-                    alt="image"
+                    alt="product"
                     class="product-image"
                   />
                 </a>
@@ -152,11 +153,11 @@
             </div>
 
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="card-product">
+              <div data-aos="fade-left" class="card-product">
                 <a href="#!">
                   <img
                     src="./img/menu/menu-3.png"
-                    alt="image"
+                    alt="product"
                     class="product-image"
                   />
                 </a>
@@ -171,11 +172,11 @@
             </div>
 
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="card-product">
+              <div data-aos="fade-left" class="card-product">
                 <a href="#!">
                   <img
                     src="./img/menu/menu-4.png"
-                    alt="image"
+                    alt="product"
                     class="product-image"
                   />
                 </a>
@@ -190,11 +191,11 @@
             </div>
 
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="card-product">
+              <div data-aos="fade-left" class="card-product">
                 <a href="#!">
                   <img
                     src="./img/menu/menu-5.png"
-                    alt="image"
+                    alt="product"
                     class="product-image"
                   />
                 </a>
@@ -209,11 +210,11 @@
             </div>
 
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="card-product">
+              <div data-aos="fade-left" class="card-product">
                 <a href="#!">
                   <img
                     src="./img/menu/menu-6.png"
-                    alt="image"
+                    alt="product"
                     class="product-image"
                   />
                 </a>
@@ -228,11 +229,11 @@
             </div>
 
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="card-product">
+              <div data-aos="fade-right" class="card-product">
                 <a href="#!">
                   <img
                     src="./img/menu/menu-7.png"
-                    alt="image"
+                    alt="product"
                     class="product-image"
                   />
                 </a>
@@ -247,11 +248,11 @@
             </div>
 
             <div class="col l-3 l-l-4 m-6 c-12">
-              <div class="card-product">
+              <div data-aos="fade-right" class="card-product">
                 <a href="#!">
                   <img
                     src="./img/menu/menu-8.png"
-                    alt="image"
+                    alt="product"
                     class="product-image"
                   />
                 </a>
@@ -266,7 +267,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
       <!-- apps -->
       <section class="apps d-flex-between">
@@ -277,58 +278,50 @@
             sed et aliquet aliquet risus tempor semper.
           </p>
         </div>
-        <div class="list-apps">
+        <div data-aos="fade-up" class="list-apps">
           <div class="list-apps-top">
             <a href="#!">
-              <img src="./img/menu/uber.png" alt="image" class="app-image" />
+              <img src="./img/menu/uber.png" alt="app" class="app-image" />
             </a>
             <a href="#!">
-              <img src="./img/menu/hub.png" alt="image" class="app-image" />
+              <img src="./img/menu/hub.png" alt="app" class="app-image" />
             </a>
             <a href="#!">
-              <img
-                src="./img/menu/postmates.png"
-                alt="image"
-                class="app-image"
-              />
+              <img src="./img/menu/postmates.png" alt="app" class="app-image" />
             </a>
           </div>
           <div class="list-apps-center">
             <a href="#!">
               <img
                 src="./img/menu/dash.png"
-                alt="image"
+                alt="app"
                 class="app-image-center app-image"
               />
             </a>
             <a href="#!">
               <img
                 src="./img/menu/panda.png"
-                alt="image"
+                alt="app"
                 class="app-image-center app-image"
               />
             </a>
             <a href="#!">
               <img
                 src="./img/menu/delive.png"
-                alt="image"
+                alt="app"
                 class="app-image-center app-image"
               />
             </a>
           </div>
           <div class="list-apps-bt">
             <a href="#!">
-              <img
-                src="./img/menu/instacart.png"
-                alt="image"
-                class="app-image"
-              />
+              <img src="./img/menu/instacart.png" alt="app" class="app-image" />
             </a>
             <a href="#!">
-              <img src="./img/menu/just.png" alt="image" class="app-image" />
+              <img src="./img/menu/just.png" alt="app" class="app-image" />
             </a>
             <a href="#!">
-              <img src="./img/menu/didi.png" alt="image" class="app-image" />
+              <img src="./img/menu/didi.png" alt="app" class="app-image" />
             </a>
           </div>
         </div>
@@ -339,11 +332,7 @@
         <div id="footer">
           <div class="contact">
             <a href="#!">
-              <img
-                src="./img/logo-footer.png"
-                alt="image"
-                class="logo-footer"
-              />
+              <img src="./img/logo-footer.png" alt="logo" class="logo-footer" />
             </a>
             <div class="desc-footer desc">
               In the new era of technology we look a in the future with
@@ -413,5 +402,9 @@
         </div>
       </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
